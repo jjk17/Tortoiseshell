@@ -41,8 +41,9 @@ center; padding-top: 2rem; padding-bottom: 2rem; margin-top: 2rem; width: 100%;}
   .philosophy, .appointments {width: 30%;}
   .footer {justify-content: left; padding-left: 2rem;}
   .white-logo img {margin-left: 2.5rem;}
-  .navigation {position: absolute; right: 1rem;}
+  .navigation {position: absolute; right: 1rem; margin-right: 1rem;}
   .philosophy-heading, .appointments-heading {width: 125px;}
+  .contact { }
 
 }
 
