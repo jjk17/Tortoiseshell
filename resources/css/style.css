@@ -35,6 +35,7 @@ header {
   background-size: cover;
   height: 25rem;
   align-items: center;
+  position: relative;
 }
 .main-banner {
   background-color: white;
@@ -73,8 +74,9 @@ center; padding-top: 2rem; padding-bottom: 2rem; margin-top: 2rem; width: 100%;}
   background-image: url("../images/glassesman.png"); background-repeat: no-repeat;
   background-position: center; background-size: cover; height: 25rem;}
   nav {width: 100%;}
-  .main-banner {margin-left: 300px; width: 375px; font-size: 0.75rem; position: absolute;
-  right: 5rem; top: 9rem;}
+  .main-banner {margin-left: 300px; width: 375px; font-size: 0.75rem;
+  right: 5rem; top: 9rem;
+  }
   .tortoiseshell { }
   .philosophy, .appointments {width: 30%;}
   .footer {justify-content: left; padding-left: 2rem;}
@@ -86,6 +88,7 @@ center; padding-top: 2rem; padding-bottom: 2rem; margin-top: 2rem; width: 100%;}
 @media only screen and (min-width: 650px) {
   .menu {display: block;}
   .truncated-menu {display: none;}
+  .main-banner {justify-content: center;}
 }
 
 @media only screen and (max-width: 649px) {
@@ -100,7 +103,7 @@ center; padding-top: 2rem; padding-bottom: 2rem; margin-top: 2rem; width: 100%;}
   .white-logo img {padding-left: 0;}
   .main-banner {
     display: flex; justify-content: center; margin-bottom: 1rem; margin-left: 0;
-    width: 100%;
+    width: 460px; text-align: center;
   }
   .truncated-menu {display: block;}
   .menu {display: none;}
