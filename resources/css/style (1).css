@@ -1,0 +1,281 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0px;
+  border: solid red 1px;
+}
+
+nav {background-color: blue;}
+
+.header {
+  display: flex;
+  background-color: CadetBlue;
+  padding: 1rem;
+  width: 960px;
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  height: 3rem;
+}
+
+.header {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/glassesman.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+  align-items: center;
+}
+
+.firstbox {
+  display: flex;
+  background-color: CadetBlue;
+  padding: 1rem;
+  width: 960px;
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  height: 3rem;
+}
+
+.white-logo {
+  margin-left: 2rem;
+}
+
+.white-logo img {
+  width: 4rem;
+  height: 2rem;
+  padding-top: 1rem;
+  padding-right: 1rem;
+}
+
+.tortoiseshell {
+  margin-right: 24rem;
+  margin-left: 0rem;
+  padding-left: 0rem;
+}
+
+.services {
+  margin-right: 1rem;
+}
+
+.products {
+  margin-right: 1rem;
+}
+
+.navigation {
+  position: absolute;
+  right: 1rem;
+}
+
+.secondbox {
+  background-color: white;
+  color: black;
+  width: 400px;
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 650px;
+  font-size: 2rem;
+  padding-left: 1rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  margin: 3rem;
+}
+
+.comprehensive, .ruler, .truck {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  text-align: center;
+}
+
+.comprehensive img {
+  height: 5rem;
+  width: 3.5rem;
+}
+
+.ruler img, .truck img {
+  height: 5rem;
+  width: 5rem;
+}
+
+.philosophy-appointments {
+  display: flex;
+  justify-content: center;
+}
+
+.philosophy {
+  width: 350px;
+  margin-right: 3rem;
+}
+
+.philosophy-text { }
+
+.appointments {
+  width: 350px;
+}
+
+.philosophy-heading, .appointments-heading {
+  background-color: CadetBlue; c
+  olor: white;
+  width: 40%;
+  padding-left: 1rem;
+  padding-right: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  background-color: lightcyan;
+  max-width: 960px;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.footer img {
+  height: 50%;
+  width: 50%;
+  padding-top: 1rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1050px) {
+  .mainbanner {
+  background-image: url("../images/glassesman.png"); background-repeat: no-repeat;
+  background-position: center; background-size: cover; height: 25rem;}
+  .secondbox {margin-left: 400px; width: 50%; margin-top: 10%; font-size: 1.33rem;}
+  .firstbox {padding-right: 5rem; margin-right: 3rem; width: 100%; padding-top: 0.5rem;
+  padding-bottom: 0.5rem;}
+  .secondbox {width: 300px; position: absolute; right: 5rem; top: 9rem;}
+  .tortoiseshell {margin-right: 16rem;}
+  .philosophy, .appointments {width: 30%;}
+  .footer {justify-content: left; padding-left: 2rem;}
+  .white-logo img {margin-left: 2.5rem;}
+  .navigation {position: absolute; right: 1rem; margin-right: 1rem;}
+  .philosophy-heading, .appointments-heading {width: 125px;}
+  .contact { }
+
+}
+
+@media only screen and (min-width: 460px) {
+  .menu {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .firstbox {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .secondbox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .services, .products, .contact {
+    display: none;
+  }
+
+  .truncated-menu {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .mainbanner {
+    background-image: url("../images/glassesman.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 20%;
+    height: 17rem;
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 60%;
+  }
+
+  .philosophy {
+    width: 100%;
+  }
+
+  .philosophy-appointments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 460px;
+  }
+
+  .comprehensive img, .ruler img, .truck img {
+    padding-top: 1rem;
+  }
+
+  .icons {
+    margin-left: 5rem;
+  }
+
+  .philosophy-heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .appointments-heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .appointments {
+    width: 100%;
+  }
+
+  .philosophy-text, .appointments-text {
+    width: 80%;
+  }
+
+  .philosophy-text {
+    margin-left: 2rem;
+  }
+
+  .appointments-text {
+    margin-left: 0.5rem;
+  }
+
+  .footer {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .copyright {
+    display: none;
+  }
+
+}
