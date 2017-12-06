@@ -35,15 +35,16 @@ header {
   background-size: cover;
   height: 25rem;
   align-items: center;
-  position: relative;
+
 }
+
+
 .main-banner {
   background-color: white;
   color: black;
   width: 400px;
   text-align: center;
   margin-top: 3rem;
-  margin-left: 500px;
   font-size: 1rem;
   padding-left: 4rem;
   padding-right: 4rem;
@@ -74,8 +75,8 @@ center; padding-top: 2rem; padding-bottom: 2rem; margin-top: 2rem; width: 100%;}
   background-image: url("../images/glassesman.png"); background-repeat: no-repeat;
   background-position: center; background-size: cover; height: 25rem;}
   nav {width: 100%;}
-  .main-banner {margin-left: 300px; width: 375px; font-size: 0.75rem;
-  right: 5rem; top: 9rem;
+  .main-banner {margin-left: 150px; width: 375px; font-size: 0.75rem;
+  right: 5rem; top: 9rem; margin-right: 75px;
   }
   .tortoiseshell { }
   .philosophy, .appointments {width: 30%;}
@@ -88,7 +89,7 @@ center; padding-top: 2rem; padding-bottom: 2rem; margin-top: 2rem; width: 100%;}
 @media only screen and (min-width: 650px) {
   .menu {display: block;}
   .truncated-menu {display: none;}
-  .main-banner {justify-content: center;}
+  .main-banner {justify-content: center; margin-left: 100px;}
 }
 
 @media only screen and (max-width: 649px) {
@@ -99,13 +100,14 @@ center; padding-top: 2rem; padding-bottom: 2rem; margin-top: 2rem; width: 100%;}
 }
 
 @media only screen and (max-width: 460px) {
-  nav {padding-top: 0; margin-top: 0;}
-  .white-logo img {padding-left: 0;}
+  nav {padding: 1.5rem; margin-top: 0;}
+  .white-logo img {padding: 0; margin-top: 0; height: 1rem; width: 3rem;}
   .main-banner {
-    display: flex; justify-content: center; margin-bottom: 1rem; margin-left: 0;
-    width: 460px; text-align: center;
+    margin-bottom: 1rem; margin-left: 0;
+    width: 460px; margin-top: 12rem; padding-top: 0.25rem; padding-bottom:
+    0.25rem; align-content: center;
   }
-  .truncated-menu {display: block;}
+  .truncated-menu {display: block; position: absolute; right: 5rem; top: 0.25rem;}
   .menu {display: none;}
   .tortoiseshell {display: none;}
   header {background-image: url("../images/glassesman.png"); background-repeat: no-repeat;
