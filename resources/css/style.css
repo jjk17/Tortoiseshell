@@ -38,6 +38,9 @@ header {
 
 }
 
+.flex {display: flex;}
+
+header .flex {justify-content: flex-end;}
 
 .main-banner {
   background-color: white;
